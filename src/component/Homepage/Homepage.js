@@ -9,9 +9,9 @@ function Homepage(){
         <div className="Homepage">
             <p>CÁC SẢN PHẨM NỔI BẬT</p>
             <div className='dienthoai'>
-                <img src={dt1}></img>
-                <img src={dt2}></img>
-                <img src={dt3}></img>
+                <img src={dt1} alt=''></img>
+                <img src={dt2} alt=''></img>
+                <img src={dt3} alt=''></img>
             </div>
         </div>
     );
