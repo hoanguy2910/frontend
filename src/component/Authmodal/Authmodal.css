@@ -1,0 +1,45 @@
+
+.modal{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0,5);
+    animation: fadeInOverlay 0.3s forwards;
+}
+.content{
+    background-color: #fff;
+    padding: 20px;
+    width: 300px;
+    border-radius: 5px;
+    position: relative;
+    transform: scale(0.8);
+    animation: scaleUp 0.3s forwards;
+}
+.close{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 30px;
+}
+.switch{
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.classform{
+    text-align: center;
+}
+@keyframes fadeInOverlay {
+  from { background-color: rgba(0,0,0,0); }
+  to { background-color: rgba(0,0,0,0.5); }
+}
+
+/* Scale modal */
+@keyframes scaleUp {
+  from { transform: scale(0.8); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}

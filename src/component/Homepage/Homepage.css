@@ -1,0 +1,24 @@
+
+.Homepage {
+text-align: center;
+font-size: 35px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.dienthoai{
+    width: 1000px;
+    height: 350px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+.Homepage img{
+    height: 300px;
+    width: 200px;
+}
+.dienthoai img:hover{
+    transform: scale(0.98);
+}

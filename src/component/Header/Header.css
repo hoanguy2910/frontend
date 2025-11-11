@@ -1,0 +1,47 @@
+.Header{
+display: flex;
+align-items: center;
+justify-content: space-around;
+background-color: yellow;
+gap: 3vw;
+font-size: clamp(1rem, 2vw, 1.5rem);
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+img{
+    width: 40px;
+    height: 40px;
+}
+.timkiem{
+    display: flex;
+    background-color: white;
+    border-radius: 30px;
+}
+input{
+    border: 0;
+    border-radius: 30px;
+    background-color: rgb(190, 245, 226);
+    height: 30px;
+    margin: 5px 5px;
+}
+input::placeholder{
+    color: black;
+    justify-content: center;
+    font-size: 15px;
+}
+button{
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    border: 0;
+    background:none;
+}
+button:hover{
+    background-color: rgb(167, 161, 157);
+}
+button:active{
+    background-color: rgb(130, 130, 139);
+    transform: scale(0.98);
+}
