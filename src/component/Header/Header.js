@@ -12,7 +12,7 @@ function Header(){
     return(
         <div className="Header">
             <div className='logo'>
-                <img src={logo}></img>
+                <img src={logo} alt=''></img>
                 <p>SmartShop</p>
             </div>
             <p>Trang chủ</p>
@@ -21,9 +21,9 @@ function Header(){
             <p>Liên hệ</p>
             <div className='timkiem'>
                 <input placeholder='Tìm kiếm...'></input> 
-                <img src={timkiem}></img>
+                <img src={timkiem} alt=''></img>
             </div>
-            <img src={giohang}></img>
+            <img src={giohang} alt=''></img>
             <button onClick={()=>{setisopen(true);setcurrent("login");}}>Đăng nhập</button>
             <button onClick={()=>{setisopen(true);setcurrent("register");}}>Đăng ký</button>
             {isopen && (<Authmodal closemodal={()=>setisopen(false)} current={current} setcurrent={setcurrent} />)}
