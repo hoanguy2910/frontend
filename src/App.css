@@ -1,6 +1,10 @@
+
+body{
+  height: 100%;
+  margin: 0;
+}
 .app{
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* căn đều header, homepage, footer */
   height: 100vh;
 }
