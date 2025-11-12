@@ -5,6 +5,7 @@ justify-content: space-around;
 background-color: yellow;
 gap: 3vw;
 font-size: clamp(1rem, 2vw, 1.5rem);
+width: 100%;
 }
 .logo{
     display: flex;
