@@ -15,7 +15,7 @@ function Header(){
                 <img src={logo} alt=''></img>
                 <p>SmartShop</p>
             </div>
-            <p>Trang chủ789</p>
+            <p>Trang chủ</p>
             <p>Sản phẩm</p> 
             <p>Khuyến mãi</p>
             <p>Liên hệ</p>
