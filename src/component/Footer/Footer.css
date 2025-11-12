@@ -1,9 +1,11 @@
 
 .Footer{
+    top: 0;
     font-size: 20px;
     background-color: rgb(145, 141, 141);
     height: 72px;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
